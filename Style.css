@@ -1,0 +1,229 @@
+.wrapper
+{
+    width: 100%;
+}
+.container
+{
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+p{
+    margin:0;
+}
+.menu{
+    font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+    font-size:14px;
+    font-weight:bold;
+     overflow: hidden;
+    }
+.menu a {
+        float: left;
+        text-align: center;
+        padding: 1px 0 0 50px;
+        margin: 0;
+        text-decoration: none;
+        font-size: 17px;
+        color:67C8F2;
+        
+      }
+ul
+{
+     list-style-type: none;
+} 
+ul li{
+    display: inline-block;
+}
+.logo{
+    font-size: 46px;
+    float: left;
+    width: 120px;
+    height: 20px;
+    align-items: center;
+}
+
+/*head*/
+header{
+    background-color:white;
+    text-align: center;
+    color: rgb(20, 20, 185);
+    font-size: 25px;
+}
+header li a:hover{
+    color: rgb(3, 1, 15);
+}
+.db
+{
+    color: darkblue;
+}
+.container::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.cart
+{
+    background: url("images/website_list_page/Rounded-Rectangle-2.png");
+    width:100px;
+    height: 30px;
+    position: absolute;
+    right:0;
+    bottom: -30px;
+    
+}
+
+.centered
+{   float: left;
+    top: 11%;
+    margin-left: 1%;
+    font-size: 15px;
+    color: white;
+    white-space: nowrap;
+    margin-left: 0px;
+
+}
+
+nav{
+    float: right;
+}
+
+
+/* head over*/
+
+/*-----------------------------------------------------*/
+
+/*body*/
+
+body
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
+.mid
+{
+    background: url("bg.jpg") no-repeat center;
+    width:100%;
+}
+.left{
+    float: left;
+    width: 20%;
+    height: auto;
+    padding-left: 10px;
+} 
+.leftcen
+{
+    background: url("images/website_list_page/Rounded-Rectangle-1.png");
+    margin: 0 auto;
+    position: relative;
+    border-radius: 6%;
+}
+.right
+{   width: 80%;
+    height: auto;
+    float: left;
+}
+* {
+    box-sizing: border-box;
+  }
+  .product {
+    width: 18%;
+    background: url("images/website_list_page/Rounded-Rectangle-1.png");
+    float: left;
+    border-radius: 20px;
+	margin-left:100px;
+	margin-bottom: 30px;
+  }
+.tophead
+{
+    background: url("images/website_list_page/rec-blue.png") no-repeat; 
+              font-family: monospace;
+                color : white;
+                text-align: center;
+                font-size: 15px;
+                padding-top: 10px;
+                margin-bottom:25px;
+                border-radius:10%;
+}
+
+
+
+.para
+{
+    text-align: center;
+    color:white;
+    font-size: 20px;
+}
+h2
+{
+    color: rgb(180, 245, 180);
+    padding-right: 15%;
+    margin-left: 15px;
+    align-content: center;
+}
+hr
+{
+    color: rgb(180, 245, 180);
+    align-content: center;
+    width:100px;
+    border: 1px solid rgb(180, 245, 180);
+    border-radius: 1px;
+}
+
+
+
+.par
+{
+    text-align: center;
+
+    
+}
+
+.cardtext
+{
+    color:blue;
+    font: 67.5% ;
+    white-space: pre-line;
+} 
+
+
+
+/*body ends*/
+
+/*-------------------------------------------------*/
+
+
+/*footer start*/
+
+footer{
+    background-color:whitesmoke;
+    height:160px;
+    color: grey;
+    text-align: center;
+}
+footer a{ 
+    color:gray;
+    text-decoration: none;
+}
+footer u{
+    text-decoration: none;
+}
+footer .logo{
+    font-size: 18px;
+    padding: 33px;
+}
+.bottom
+{
+    float: left;
+    padding-left: 100px;
+    margin-left: 100px;
+   overflow: hidden;
+   font-size:18px;
+}
+.b-column
+{
+    float: left;
+    padding: 33px;
+    text-align: center;
+}
+/*footer end*/
